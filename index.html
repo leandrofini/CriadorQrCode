@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>Cross-Browser QRCode generator for Javascript</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+<script type="text/javascript" src="jquery.min.js"></script>
+</head>
+<body>
+  <section class="container">
+		    <h2 id="titulo-form">Gerar QrCode</h2>
+		    <form id="form-adiciona">
+		      <input id="tamanho1" type="text" value=256 style="width:5%" /><br />
+				<input id="tamanho2" type="text" value=256 style="width:5%" /><br />
+				<button id="gerar" class="botao bto-principal">Gerar QrCode</button>
+				<input id="text" type="text" value="http://google.com.br" style="width:80%" /><br />
+        <button id="recarregar" class="botao recarregar">Recarregar página</button>
+        <label for="ok">Clique com botão direito no QrCode e SALVAR IMAGEM COMO</label>
+				<div id="qrcode" style="width:100px; height:100px; margin-top:15px;"></div>
+        <
+		    </form>
+		</section>
+
+<script src="criarqrcode.js" ></script>
+<script src="qrcode.js" ></script>
+<script src="reload.js" ></script>
+
+</body>
